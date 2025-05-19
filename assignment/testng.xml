@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WordApplicationTestSuite" verbose="1" >
+  <test name="Regression Suite">
+    <classes>
+      <class name="UnitTests.WordFunctionTests"/>
+      <class name="IntegrationTest.WordApplicationTest"/>
+    </classes>
+  </test>
+</suite>
